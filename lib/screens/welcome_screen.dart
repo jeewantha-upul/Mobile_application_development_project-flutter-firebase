@@ -26,7 +26,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
       duration: Duration(seconds: 1),
       vsync: this,
     );
-    animation = ColorTween(begin: Colors.blueGrey, end: Colors.white)
+    animation = ColorTween(begin: Colors.green[50], end: Colors.white)
         .animate(controller);
     controller.forward();
     controller.addListener(() {
@@ -64,7 +64,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                   tag: 'logo',
                   child: Container(
                     child: Image.asset('image/logo.png'),
-                    height: 60.0,
+                    height: 100.0,
                   ),
                 ),
 
@@ -73,11 +73,11 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                   speed: Duration(milliseconds: 200),
                   totalRepeatCount: 4,
                   text: [
-                    'Flash Chat',
+                    'Medi Care',
                   ],
                   textStyle: TextStyle(
-                    color: Colors.black,
-                    letterSpacing: 1.5,
+                    color: Colors.grey[600],
+                    letterSpacing: 2.0,
                     fontSize: 40.0,
                     fontWeight: FontWeight.w900,
                   ),
