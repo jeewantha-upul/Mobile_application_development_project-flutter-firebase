@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:mad/Screens/HealthUi.dart';
-import 'package:mad/Screens/firstAidUi.dart';
-import 'package:mad/Screens/hospitalUi.dart';
-import 'package:mad/Screens/pharmacyUi.dart';
-import 'package:mad/Screens/remindUi.dart';
+import 'package:mad/Screens_Other/HealthUi.dart';
+import 'package:mad/Screens_Other/firstAidUi.dart';
+import 'package:mad/Screens_Other/hospitalUi.dart';
+import 'package:mad/Screens_Other/pharmacyUi.dart';
+import 'package:mad/Screens_Other/remindUi.dart';
 
 class Dashboard extends StatelessWidget {
+  static const String id = 'dashboard.dart';
   @override
   Widget build(BuildContext context) {
     return SafeArea(

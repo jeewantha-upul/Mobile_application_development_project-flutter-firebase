@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "641202347507",
+    "project_id": "medical-app-e041e",
+    "storage_bucket": "medical-app-e041e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641202347507:android:3202f70ab101d8c6fbc686",
+        "android_client_info": {
+          "package_name": "jeewantha.mad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641202347507-t5qfr4uiiepohmluhqpm6valnmq0vok2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdBvH6VmU8d3OKjFntxMkl4QpGtZ86wBk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641202347507-t5qfr4uiiepohmluhqpm6valnmq0vok2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
