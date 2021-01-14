@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mad/mainmap.dart';
 
 class PharmacyUi extends StatefulWidget {
   @override
@@ -12,12 +13,7 @@ class _PharmacyUiState extends State<PharmacyUi> {
       child: Expanded(
         child: GestureDetector(
           onTap: () {
-            /*--------------------------
-            -------------------------
-            add your code here
-            ---------------------------
-            -----------------------------
-             */
+            runApp(MyApp1());
           },
           child: Container(
             child: Column(
