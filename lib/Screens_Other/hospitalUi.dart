@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mad/mainmap2.dart';
 
 class HospitalUi extends StatefulWidget {
   @override
@@ -12,12 +13,7 @@ class _HospitalUiState extends State<HospitalUi> {
       child: Expanded(
         child: GestureDetector(
           onTap: () {
-            /*--------------------------
-            -------------------------
-            add your code here
-            ---------------------------
-            -----------------------------
-             */
+            runApp(MyApp2());
           },
           child: Container(
             child: Column(
