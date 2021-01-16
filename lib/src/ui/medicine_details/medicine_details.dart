@@ -19,7 +19,7 @@ class MedicineDetails extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.white,
         iconTheme: IconThemeData(
-          color: Color(0xFF00E2E2),
+          color: Color(0xFF3EB16F),
         ),
         centerTitle: true,
         title: Text(
@@ -52,7 +52,7 @@ class MedicineDetails extends StatelessWidget {
                   width: 280,
                   height: 70,
                   child: FlatButton(
-                    color: Color(0xFF00E2E2),
+                    color: Color(0xFF3EB16F),
                     shape: StadiumBorder(),
                     onPressed: () {
                       openAlertBox(context, _globalBloc);
@@ -122,7 +122,7 @@ class MedicineDetails extends StatelessWidget {
                             width: MediaQuery.of(context).size.width / 2.743,
                             padding: EdgeInsets.only(top: 15.0, bottom: 15.0),
                             decoration: BoxDecoration(
-                              color: Color(0xFF00E2E2),
+                              color: Color(0xFF3EB16F),
                               borderRadius: BorderRadius.only(
                                 bottomLeft: Radius.circular(30.0),
                               ),
@@ -188,7 +188,7 @@ class MainSection extends StatelessWidget {
         tag: medicine.medicineName + medicine.medicineType,
         child: Icon(
           IconData(0xe900, fontFamily: "Ic"),
-          color: Color(0xFF00E2E2),
+          color: Color(0xFF3EB16F),
           size: size,
         ),
       );
@@ -197,7 +197,7 @@ class MainSection extends StatelessWidget {
         tag: medicine.medicineName + medicine.medicineType,
         child: Icon(
           IconData(0xe901, fontFamily: "Ic"),
-          color: Color(0xFF00E2E2),
+          color: Color(0xFF3EB16F),
           size: size,
         ),
       );
@@ -206,7 +206,7 @@ class MainSection extends StatelessWidget {
         tag: medicine.medicineName + medicine.medicineType,
         child: Icon(
           IconData(0xe902, fontFamily: "Ic"),
-          color: Color(0xFF00E2E2),
+          color: Color(0xFF3EB16F),
           size: size,
         ),
       );
@@ -215,7 +215,7 @@ class MainSection extends StatelessWidget {
         tag: medicine.medicineName + medicine.medicineType,
         child: Icon(
           IconData(0xe903, fontFamily: "Ic"),
-          color: Color(0xFF00E2E2),
+          color: Color(0xFF3EB16F),
           size: size,
         ),
       );
@@ -224,7 +224,7 @@ class MainSection extends StatelessWidget {
       tag: medicine.medicineName + medicine.medicineType,
       child: Icon(
         Icons.local_hospital,
-        color: Color(0xFF00E2E2),
+        color: Color(0xFF3EB16F),
         size: size,
       ),
     );
@@ -292,7 +292,7 @@ class MainInfoTab extends StatelessWidget {
             fieldInfo,
             style: TextStyle(
                 fontSize: 24,
-                color: Color(0xFF00E2E2),
+                color: Color(0xFF3EB16F),
                 fontWeight: FontWeight.bold),
           ),
         ],
