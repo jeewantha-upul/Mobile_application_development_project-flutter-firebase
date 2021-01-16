@@ -1,30 +1,33 @@
 import 'package:flutter/material.dart';
-import 'package:mad/mainapp.dart';
-class RemindUi extends StatefulWidget {
+class FirstAidsUi extends StatefulWidget {
   @override
-  _RemindUiState createState() => _RemindUiState();
+  _FirstAidsUiState createState() => _FirstAidsUiState();
 }
 
-class _RemindUiState extends State<RemindUi> {
+class _FirstAidsUiState extends State<FirstAidsUi> {
   @override
   Widget build(BuildContext context) {
     return Container(
       child: Expanded(
         child: GestureDetector(
           onTap: () {
-            runApp(MedicineReminder());
-            print('bell');
+            /*--------------------------
+            -------------------------
+            add your code here
+            ---------------------------
+            -----------------------------
+             */
           },
           child: Container(
-            padding: EdgeInsets.only(left: 100.0, right: 120.0),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Image.asset('image/bell.png'),
-                SizedBox(height: 30.0),
+                Image.asset('image/medkit.png'),
+                SizedBox(
+                  height: 20.0,
+                ),
                 Text(
-                  'Remind Me',
+                  'First Aids',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     letterSpacing: 1.0,
@@ -32,7 +35,7 @@ class _RemindUiState extends State<RemindUi> {
                 ),
               ],
             ),
-            margin: EdgeInsets.only(left: 20.0, right: 20.0),
+            margin: EdgeInsets.all(30.0),
             decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.all(
