@@ -1,4 +1,4 @@
-package jeewantha.mad;
+package com.example.medicine_reminder;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;
